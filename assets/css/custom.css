@@ -3,6 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
+    font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
     padding-top: 3rem;
     color: #1f1f1f;
 }
