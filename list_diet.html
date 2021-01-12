@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/vendor/style.css">
     <!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">-->
     <link rel="stylesheet" href="assets/css/fonts/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -21,32 +22,18 @@
             <a class="navbar-brand" href="index.html">
                 <img src="assets/img/logo/logo_w.svg" alt="logo" height="40" loading="lazy">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto mb-2 mb-md-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#">ホーム</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">リンク</a>
-                    </li>
-                </ul>
-                <a class="btn btn-outline-success" href="#"><i class="fas fa-shopping-cart"></i><br>SHOP</a>
-            </div>
+            <a class="btn btn-outline-success" href="#"><i class="fas fa-shopping-cart"></i><br>SHOP</a>
         </div>
     </nav>
 </header>
 
 <main>
-    <div class="container">
-        <section class="py-5">
-            <div class="row pb-5">
+    <div class="container pt-5">
+        <section class="py-3">
+            <div class="row pb-2">
                 <div class="col">
                     <blockquote class="blockquote">
-                        <h1 class="border-info">ダイエット</h1>
+                        <h2 class="border-info">ダイエット</h2>
                     </blockquote>
                 </div>
             </div>
@@ -54,20 +41,10 @@
             <div class="row justify-content-between">
                 <div class="col-6 col-md-3 g-3">
                     <div class="card">
-                        <a href="detail007.html" class="btn btn-link">
-                        <img src="assets/img/item/enzyme.png" class="card-img-top" alt="油吸い取り生酵素">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">油吸い取り生酵素</h5>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 g-3">
-                    <div class="card">
                         <a href="detail004.html" class="btn btn-link">
                             <img src="assets/img/item/sugar.png" class="card-img-top" alt="糖・脂ケア">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">糖・脂ケア</h5>
+                            <div class="card-body pb-0">
+                                <p class="card-title text-center">糖・脂ケア</p>
                             </div>
                         </a>
                     </div>
@@ -76,8 +53,18 @@
                     <div class="card">
                         <a href="detail005.html" class="btn btn-link">
                             <img src="assets/img/item/diet.png" class="card-img-top" alt="ダイエット">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">ダイエット</h5>
+                            <div class="card-body pb-0">
+                                <p class="card-title text-center">ダイエット</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 g-3">
+                    <div class="card">
+                        <a href="detail007.html" class="btn btn-link">
+                            <img src="assets/img/item/enzyme.png" class="card-img-top" alt="油吸い取り生酵素">
+                            <div class="card-body text-center pb-0">
+                                <p class="card-title">油吸い取り<br class="d-block d-sm-none">生酵素</p>
                             </div>
                         </a>
                     </div>
@@ -86,8 +73,8 @@
                     <div class="card">
                         <a href="detail008.html" class="btn btn-link">
                             <img src="assets/img/item/drink.png" class="card-img-top" alt="生酵素ドリンク">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">生酵素ドリンク</h5>
+                            <div class="card-body pb-0">
+                                <p class="card-title text-center">生酵素<br class="d-block d-sm-none">ドリンク</p>
                             </div>
                         </a>
                     </div>
@@ -95,7 +82,7 @@
             </div>
         </section>
 
-        <section class="item_link py-5">
+        <section class="item_link py-3">
             <div class="row">
                 <div class="col-auto">
                     <a class="btn btn-link" href="list_supplement.html"><i class="fas fa-angle-right"></i> 美容サプリメント</a>
@@ -108,9 +95,6 @@
 
         <section class="social_media">
             <div class="row justify-content-end text-right">
-                <div class="col-auto">
-                    <p class="lead font-weight-bold"><i class="fas fa-share-alt"></i> シェアする</p>
-                </div>
                 <div class="col-auto social text-md-right">
                     <a class="mx-1" href="#"><span class="fab fa-2x fa-line text-dark"></span></a>
                     <a class="mx-1" href="#"><span class="fab fa-2x fa-facebook-square text-dark"></span></a>
@@ -119,25 +103,25 @@
                 </div>
             </div>
         </section>
-
     </div>
 
     <!-- footer -->
     <footer class="footer mt-auto py-3 bg-black bg-gradient">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="logo_area col-md-2">
-                    <figure>
-                        <img class="img-fluid" src="assets/img/logo/logo_w.svg" alt="">
-                    </figure>
+                <div class="logo_area col-6 col-md-2">
+                    <a href="index.html">
+                        <figure>
+                            <img class="img-fluid" src="assets/img/logo/logo_w.svg" alt="">
+                        </figure>
+                    </a>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="link_area col-auto">
+            <div class="row justify-content-center pb-0">
+                <div class="link_area col-auto text-center small">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a class="text-white small" href="company.html"><i class="fas fa-caret-right"></i> 企業情報</a></li>
-                            <li class="breadcrumb-item"><a class="text-white small" href="#"><i class="fas fa-caret-right"></i> 利用規約</a></li>
                             <li class="breadcrumb-item"><a class="text-white small" href="#"><i class="fas fa-caret-right"></i> 個人情報の取り扱いについて</a></li>
                             <li class="breadcrumb-item"><a class="text-white small" href="#"><i class="fas fa-caret-right"></i> 特定商取引法に基づく表記</a></li>
                         </ol>
@@ -146,7 +130,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="copyright col-auto">
-                    <span class="text-white">Copyright <i class="fas fa-copyright"></i> 2010-2020 iMOKO Corporation All rights reserved.</span>
+                    <span class="text-white x-small">Copyright <i class="fas fa-copyright"></i> 2010-2020 iMOKO Corporation All rights reserved.</span>
                 </div>
             </div>
         </div>

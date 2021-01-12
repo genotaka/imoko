@@ -86,8 +86,8 @@ body {
 }
 
 
-.blockquote > h1 {
-    border-left: 20px solid deeppink;
+.blockquote > h2 {
+    border-left: 18px solid deeppink;
     padding:5px 20px;
 }
 
@@ -200,6 +200,20 @@ body {
     padding-right: 0.5rem;
     color: #6c757d;
     content: "/";
+}
+
+/* ランキングスタイル */
+.ranking {
+    width: 48px;
+    height: 48px;
+}
+
+.ex-small {
+    font-size: 44%;
+}
+
+.text-small {
+    font-size: 50%;
 }
 
 

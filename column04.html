@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/vendor/style.css">
     <!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">-->
     <link rel="stylesheet" href="assets/css/fonts/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -21,28 +22,13 @@
             <a class="navbar-brand" href="index.html">
                 <img src="assets/img/logo/logo_w.svg" alt="logo" height="40" loading="lazy">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto mb-2 mb-md-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#">ホーム</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">リンク</a>
-                    </li>
-                </ul>
-                <a class="btn btn-outline-success" href="#"><i class="fas fa-shopping-cart"></i><br>SHOP</a>
-            </div>
+            <a class="btn btn-outline-success" href="#"><i class="fas fa-shopping-cart"></i><br>SHOP</a>
         </div>
     </nav>
 </header>
 
 <main>
     <div class="container">
-
         <section class="first_title py-5">
             <div class="row">
                 <div class="col">
@@ -63,18 +49,12 @@
             </div>
         </section>
 
-        <section class="first_view py-2">
-            <div class="row">
-                <div class="col">
-                    <img class="img-fluid" src="assets/img/column/column04_top.jpg" alt="トップイメージ">
-                </div>
-            </div>
-        </section>
-
-
         <section class="main_content py-5 lh-lg">
-            <div class="row gy-5">
-                <div class="col-auto px-4">
+            <div class="row gy-5 pb-5">
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid" src="assets/img/column/column04_top.png" alt="トップイメージ">
+                </div>
+                <div class="col-12 col-md-8 px-2">
                     <p>
                         肌のハリやツヤ、関節の柔軟性を守るコラーゲンは、年齢とともに減少し、50代では20代の約半分までに低下してしまいます。
                         しかも、加齢により代謝が衰えると、コラーゲンをはじめとしたたんぱく質合成にも少しずつ“狂い”がでて、コラーゲンの質が下がってしまうことも問題です。
@@ -85,9 +65,13 @@
                     </p>
                 </div>
             </div>
-            <div class="row gy-5 justify-content-center">
+            <div class="row gy-5 justify-content-center py-2">
+                <div class="col-12">
+                    <h5 class="alert alert-success text-center">年齢とともに減少するコラーゲン</h5>
+                </div>
+            </div>
+            <div class="row gy-5 pt-3 justify-content-center">
                 <div class="col-12 col-md-6">
-                    <h5 class="alert alert-success">年齢とともに減少するコラーゲン</h5>
                     <img class="img-fluid" src="assets/img/column/column04_graph.png" alt="コラーゲングラフ">
                     <p class="small text-black-50 px-4">出典：藤本大三郎「老化のメカニズムと制御」（アイビシー）<br>
                     雑誌名：「コラーゲンできれいになる」（株式会社阪急コミュニケーションズ）</p>
@@ -102,12 +86,12 @@
                     </p>
                 </div>
             </div>
-            <div class="row gy-5">
+            <div class="row gy-5 justify-content-center">
                 <div class="col-auto px-4">
                     <p>コラーゲンには主に、「(生)コラーゲン」「ゼラチンコラーゲン」「加水分解コラーゲン(コラーゲンペプチド)」の3種類があります。</p>
                 </div>
-                <div class="col-auto">
-                    <img class="img-fluid" src="assets/img/column/column04_list.png" alt="コラーゲンの種類">
+                <div class="col-auto col-md-8">
+                    <img class="img-fluid" src="assets/img/column/column04_list.jpg" alt="コラーゲンの種類">
                 </div>
                 <div class="col-auto px-4">
                     <p>
@@ -121,7 +105,7 @@
                         分子量が小さく吸収されやすいコラーゲンペプチドをたっぷり配合し、さらにコラーゲン同士を結びつける働きを持つ繊維状のたんぱく質「エラスチン」を加えたエイジングに特化したサプリメントが誕生。
                     </p>
                 </div>
-                <div class="col-auto px-4">
+                <div class="col-auto col-md-10 px-4">
                     <img class="img-fluid" src="assets/img/column/ela_cola.png" alt="毎日エブリデイ">
                 </div>
                 <div class="col-auto px-4">
@@ -136,57 +120,38 @@
 
         <section class="column py-5">
             <div class="row justify-content-center py-3">
-                <h2 class="text-center"> <i class="fas fa-bug"></i> 美容コラム</h2>
+                <h2 class="text-center"><img class="img-fluid" src="assets/img/icn/beauty.png" width="32" alt=""> 美容コラム</h2>
             </div>
-            <div class="row justify-content-between gy-5">
+            <div class="row justify-content-between gy-1">
                 <div class="col-6 col-md-3">
-                    <div class="card">
-                        <a href="">
-                            <img src="assets/img/top/column01.jpg" class="card-img-top" alt="コラム画像1">
-                            <div class="card-body">
-                                <p class="card-text btn btn-link">抗糖化に特化したKOTOブランドを食事に！</p>
-                            </div>
-                        </a>
-                    </div>
+                    <a href="column01.html">
+                        <img src="assets/img/top/column01.jpg" class="card-img-top" alt="コラム画像1">
+                        <p class="btn btn-link x-small">抗糖化に特化したKOTOブランドを食事に！</p>
+                    </a>
                 </div>
-
                 <div class="col-6 col-md-3">
-                    <div class="card">
-                        <a href="">
-                            <img src="assets/img/top/column02.jpg" class="card-img-top" alt="コラム画像2">
-                            <div class="card-body">
-                                <p class="card-text btn btn-link">食べる前後に飲む女性続出中のサプリメント</p>
-                            </div>
-                        </a>
-                    </div>
+                    <a href="column02.html">
+                        <img src="assets/img/top/column05.jpg" class="card-img-top" alt="コラム画像5">
+                        <p class="btn btn-link x-small">ゆらぎ世代の女性が補いたい栄養素とは</p>
+                    </a>
                 </div>
-
                 <div class="col-6 col-md-3">
-                    <div class="card">
-                        <img src="assets/img/top/column03.jpg" class="card-img-top" alt="コラム画像3">
-                        <div class="card-body">
-                            <p class="card-text">普通の潤いでは満足できない人に体内から潤いを</p>
-                        </div>
-                    </div>
+                    <a href="column03.html">
+                        <img src="assets/img/top/column02.jpg" class="card-img-top" alt="コラム画像2">
+                        <p class="btn btn-link x-small">食べる前後に飲む女性続出中のサプリメント</p>
+                    </a>
                 </div>
-
                 <div class="col-6 col-md-3">
-                    <div class="card">
+                    <a href="column05.html">
                         <img src="assets/img/top/column04.jpg" class="card-img-top" alt="コラム画像4">
-                        <div class="card-body">
-                            <p class="card-text">体全体のトーンをホワイトニングしたい人に</p>
-                        </div>
-                    </div>
+                        <p class="btn btn-link x-small">体全体のトーンをホワイトニングしたい人に</p>
+                    </a>
                 </div>
-
             </div>
         </section>
 
         <section class="social_media">
             <div class="row justify-content-end text-right">
-                <div class="col-auto">
-                    <p class="lead font-weight-bold"><i class="fas fa-share-alt"></i> シェアする</p>
-                </div>
                 <div class="col-auto social text-md-right">
                     <a class="mx-1" href="#"><span class="fab fa-2x fa-line text-dark"></span></a>
                     <a class="mx-1" href="#"><span class="fab fa-2x fa-facebook-square text-dark"></span></a>
@@ -195,7 +160,6 @@
                 </div>
             </div>
         </section>
-
     </div>
 
     <!-- footer -->
@@ -203,17 +167,18 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="logo_area col-6 col-md-2">
-                    <figure>
-                        <img class="img-fluid" src="assets/img/logo/logo_w.svg" alt="">
-                    </figure>
+                    <a href="index.html">
+                        <figure>
+                            <img class="img-fluid" src="assets/img/logo/logo_w.svg" alt="">
+                        </figure>
+                    </a>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="link_area col-auto">
+                <div class="link_area col-auto text-center small">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a class="text-white small" href="company.html"><i class="fas fa-caret-right"></i> 企業情報</a></li>
-                            <li class="breadcrumb-item"><a class="text-white small" href="#"><i class="fas fa-caret-right"></i> 利用規約</a></li>
                             <li class="breadcrumb-item"><a class="text-white small" href="#"><i class="fas fa-caret-right"></i> 個人情報の取り扱いについて</a></li>
                             <li class="breadcrumb-item"><a class="text-white small" href="#"><i class="fas fa-caret-right"></i> 特定商取引法に基づく表記</a></li>
                         </ol>
@@ -222,7 +187,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="copyright col-auto">
-                    <span class="text-white">Copyright <i class="fas fa-copyright"></i> 2010-2020 iMOKO Corporation All rights reserved.</span>
+                    <span class="text-white x-small">Copyright <i class="fas fa-copyright"></i> 2010-2020 iMOKO Corporation All rights reserved.</span>
                 </div>
             </div>
         </div>
